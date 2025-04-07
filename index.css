@@ -1,0 +1,108 @@
+/* src/index.css */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* src/pages/HomePage.css */
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .home-page .header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-page .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .home-page .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .home-page .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .home-page .hero {
+    background-color: #e0e0e0;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .game-list{
+      padding: 20px;
+  }
+  
+  /*src/pages/GameDetailPage.css*/
+  .game-detail-page{
+      padding: 20px;
+  }
+  
+  .game-detail-page img{
+      max-width: 100%;
+      height: auto;
+  }
+  
+  /*src/components/Header.css*/
+  .header {
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  /*src/components/Sidebar.css*/
+  .sidebar{
+      width: 200px;
+      background-color: #f0f0f0;
+      padding: 20px;
+  }
+  
+  .sidebar div{
+      margin-bottom: 10px;
+  }
+  
+  /*src/components/GameList.css*/
+  .game-list{
+      padding: 20px;
+  }
+  
+  .game-list .card{
+      margin-bottom: 20px;
+  }
+  
+  /*src/components/ProtectedRoute.css*/
+  /* No specific styles needed for ProtectedRoute */
+  
+  /*src/pages/AuthPage.css*/
+  .auth-page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }

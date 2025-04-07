@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@clerk/clerk-react": "^5.25.5",
+    "axios": "^1.8.4",
+    "bootstrap": "^5.3.3",
+    "react": "^19.1.0",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.4.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
+  }
+}
